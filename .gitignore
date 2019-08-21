@@ -48,7 +48,6 @@ doc/
 dynamodb/
 .editorconfig/
 elasticsearch/
-elasticsearch5/
 foundationdb/
 geode/
 googlebigtable/
