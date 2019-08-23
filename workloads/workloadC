@@ -1,0 +1,22 @@
+recordcount=1000
+operationcount=1000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+
+readallfields=true
+
+readproportion=0
+updateproportion=0
+scanproportion=1
+insertproportion=0
+
+requestdistribution=zipfian
+
+maxscanlength=100
+
+scanlengthdistribution=uniform
+
+# The number of fields in a record
+fieldcount=5
+
+# The size of each field (in bytes)
+fieldlength=50

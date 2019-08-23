@@ -80,6 +80,5 @@ solr6/
 tablestore/
 tarantool/
 voldemort/
-workloads/
 customworkloads/
 outputfiles/
