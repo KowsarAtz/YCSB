@@ -12,7 +12,7 @@ insertproportion=0
 requestdistribution=zipfian
 
 # The number of fields in a record
-fieldcount=5
+fieldcount=10
 
 # The size of each field (in bytes)
-fieldlength=50
+fieldlength=100

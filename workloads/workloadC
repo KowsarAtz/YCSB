@@ -5,18 +5,14 @@ workload=com.yahoo.ycsb.workloads.CoreWorkload
 readallfields=true
 
 readproportion=0
-updateproportion=0
-scanproportion=1
+updateproportion=1
+scanproportion=0
 insertproportion=0
 
 requestdistribution=zipfian
 
-maxscanlength=100
-
-scanlengthdistribution=uniform
-
 # The number of fields in a record
-fieldcount=5
+fieldcount=10
 
 # The size of each field (in bytes)
-fieldlength=50
+fieldlength=100
