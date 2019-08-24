@@ -57,7 +57,7 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 public class ElasticsearchRestClient extends DB {
 
   private static final String DEFAULT_INDEX_KEY = "es.ycsb";
-  private static final String DEFAULT_REMOTE_HOST = "localhost:9200";
+  private static final String DEFAULT_REMOTE_HOST = "172.16.13.26:9200";
   private static final int NUMBER_OF_SHARDS = 1;
   private static final int NUMBER_OF_REPLICAS = 0;
   private RestClient restClient;
